@@ -1,5 +1,15 @@
 function primeNumber(a) {
-  /* Your code here */
+  if (a <= 1) {
+    return console.log("NO");
+  }
+
+  for (let i = 2; i <= Math.sqrt(a); i++) {
+      if (a % i === 0) {
+        console.log("YES"); 
+      }
+  }
+
+return console.log("NO");
 }
 
 const d1 = 10;

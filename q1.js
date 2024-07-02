@@ -6,11 +6,11 @@ function typeChecker(a, b) {
         else  {
             console.log(a + b);
         }
+    }
     if (typeof a !== typeof b) {
         console.log("NOT MATCHED");
-    }
-    }
-}
+        }
+ }
 //Test cases
 var a1 = "Jack";
 var b1 = "Rose";
