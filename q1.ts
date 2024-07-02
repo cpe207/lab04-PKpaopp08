@@ -1,15 +1,15 @@
 function typeChecker(a, b) {
   if (typeof a === typeof b) {
       if (typeof a === 'string') {
-          console.log("I lOVE YOU");
+          return "I lOVE YOU";
       }
-      else  {
-          console.log(a + b);
+      else {
+          return a + b;
       }
   }
   if (typeof a !== typeof b) {
-      console.log("NOT MATCHED");
-      }
+      return "NOT MATCHED";
+  }
 }
 //Test cases
 const a1 = "Jack";
