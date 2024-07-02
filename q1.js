@@ -3,14 +3,14 @@ function typeChecker(a, b) {
         if (typeof a === 'string') {
             console.log("I lOVE YOU");
         }
-        else  {
+        else {
             console.log(a + b);
         }
     }
     if (typeof a !== typeof b) {
         console.log("NOT MATCHED");
-        }
- }
+    }
+}
 //Test cases
 var a1 = "Jack";
 var b1 = "Rose";
